@@ -2345,3 +2345,35 @@ body {
     display: none !important;
   }
 }
+
+@media (max-width: 430px) {
+  .slide-content {
+    width: 99vw;
+    max-width: 99vw;
+    padding: 4vw 1vw;
+  }
+  .slide-header h2 {
+    font-size: 7vw;
+    overflow-wrap: break-word;
+    word-break: break-word;
+  }
+  .slide-header p {
+    font-size: 4vw;
+    overflow-wrap: break-word;
+    word-break: break-word;
+  }
+  .logo h1 {
+    font-size: 9vw;
+    overflow-wrap: break-word;
+    word-break: break-word;
+  }
+  .tagline-section h2 {
+    font-size: 5vw;
+    overflow-wrap: break-word;
+    word-break: break-word;
+  }
+  .slide-content, .slide-header, .slide-header h2, .slide-header p {
+    overflow-wrap: break-word;
+    word-break: break-word;
+  }
+}
