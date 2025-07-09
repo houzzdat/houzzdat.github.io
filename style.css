@@ -2347,32 +2347,52 @@ body {
 }
 
 @media (max-width: 430px) {
-  .slide-content {
-    width: 99vw;
-    max-width: 99vw;
-    padding: 4vw 1vw;
+  /* Images and icons */
+  img, .logo-icon, .problem-icon, .solution-icon, .feature-icon, .stream-icon, .channel-icon, .timeline-icon, .construction-icon {
+    max-width: 100%;
+    height: auto;
+    font-size: 8vw !important;
+    box-sizing: border-box;
   }
-  .slide-header h2 {
-    font-size: 7vw;
-    overflow-wrap: break-word;
-    word-break: break-word;
+  /* Logo and tagline */
+  .logo {
+    flex-direction: column;
+    gap: 2vw;
   }
-  .slide-header p {
+  .logo-section {
+    margin-bottom: 4vw;
+  }
+  /* Buttons and navigation */
+  .btn, .nav-btn {
     font-size: 4vw;
-    overflow-wrap: break-word;
-    word-break: break-word;
+    padding: 2vw 4vw;
+    min-width: 0;
+    width: 100%;
+    box-sizing: border-box;
   }
-  .logo h1 {
-    font-size: 9vw;
-    overflow-wrap: break-word;
-    word-break: break-word;
+  .slide-navigator {
+    flex-direction: column;
+    gap: 2vw;
+    top: 2vw;
+    right: 2vw;
+    left: 2vw;
+    width: auto;
+    padding: 2vw 2vw;
   }
-  .tagline-section h2 {
-    font-size: 5vw;
-    overflow-wrap: break-word;
-    word-break: break-word;
+  /* Grids and flex layouts stack vertically */
+  .problem-grid, .solution-grid, .market-circles, .workflow-section, .platform-features, .key-metrics, .milestone-grid, .revenue-streams, .economics-grid, .traction-container, .chart-container, .team-container, .business-model-container, .gtm-container, .funding-container, .financials-container, .ai-infra-columns {
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 3vw !important;
   }
-  .slide-content, .slide-header, .slide-header h2, .slide-header p {
+  .container, .presentation-container {
+    max-width: 100vw !important;
+    width: 100vw !important;
+    padding: 0 1vw !important;
+    box-sizing: border-box;
+  }
+  /* Ensure all text holders wrap */
+  .slide-content, .slide-header, .slide-header h2, .slide-header p, .logo h1, .tagline-section h2 {
     overflow-wrap: break-word;
     word-break: break-word;
   }
