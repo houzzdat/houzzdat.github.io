@@ -2397,3 +2397,34 @@ body {
     word-break: break-word;
   }
 }
+
+@media (max-width: 600px) {
+  .slide, .slide-content {
+    height: auto !important;
+    min-height: 100vh;
+    position: relative !important;
+    overflow-y: auto !important;
+    display: block !important;
+  }
+}
+
+@media (max-width: 430px) {
+  .slide, .slide-content {
+    height: auto !important;
+    min-height: 100vh;
+    position: relative !important;
+    overflow-y: auto !important;
+    display: block !important;
+  }
+  .slide-number {
+    position: absolute;
+    top: 8px;
+    left: 8px;
+    background: rgba(0,0,0,0.5);
+    color: #fff;
+    font-size: 4vw;
+    padding: 2px 8px;
+    border-radius: 8px;
+    z-index: 10;
+  }
+}
