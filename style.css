@@ -669,11 +669,43 @@ body {
     overflow: hidden;
 }
 
+/* Responsive 16:9 aspect ratio and max width for presentation */
 .presentation-container {
-    position: relative;
+  max-width: 1280px;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  margin: 0 auto;
+  height: auto;
+  min-height: 0;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  /* Maintain existing design */
+}
+
+@media (max-width: 1280px) {
+  .presentation-container {
     width: 100vw;
-    height: 100vh;
-    overflow: hidden;
+    max-width: 100vw;
+    padding: 0 8px;
+  }
+}
+
+@media (max-width: 900px) {
+  .presentation-container {
+    aspect-ratio: 16 / 9;
+    min-width: 0;
+    padding: 0 2vw;
+  }
+}
+
+@media (max-width: 600px) {
+  .presentation-container {
+    aspect-ratio: 16 / 9;
+    width: 100vw;
+    max-width: 100vw;
+    padding: 0 1vw;
+  }
 }
 
 /* Slide Navigation */
@@ -2307,18 +2339,9 @@ body {
     position: static !important;
     visibility: visible !important;
     pointer-events: auto !important;
-    transform: none !important;
-    page-break-after: always;
-    width: 100% !important;
-    height: auto !important;
-    max-height: none !important;
   }
   .slide-navigator,
   .navigation-controls {
     display: none !important;
-  }
-  body, html, .presentation-container {
-    overflow: visible !important;
-    height: auto !important;
   }
 }
