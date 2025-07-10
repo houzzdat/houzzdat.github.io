@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Houzzdat - Investor Presentation (Reveal.js)</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js/dist/reveal.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js/dist/theme/white.css">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    body, .reveal {
+      font-family: 'Montserrat', sans-serif;
+    }
+    .logo-icon {
+      background: #1D3E91;
+      color: #fff;
+      border-radius: 50%;
+      width: 60px;
+      height: 60px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 2.5rem;
+      font-weight: bold;
+      margin: 0 auto 16px auto;
+    }
+    .cover-slide h1 {
+      font-size: 2.5rem;
+      color: #1D3E91;
+      margin-bottom: 0.5em;
+    }
+    .cover-slide h2 {
+      font-size: 1.5rem;
+      color: #0F1E50;
+      margin-bottom: 0.5em;
+    }
+    .subtitle {
+      color: #F7931E;
+      font-size: 1.1rem;
+      font-weight: 600;
+    }
+    .slide-header h2 {
+      color: #1D3E91;
+      font-size: 2rem;
+      margin-bottom: 0.3em;
+    }
+    .slide-header p {
+      color: #0F1E50;
+      font-size: 1.1rem;
+      margin-bottom: 1em;
+    }
+    .problem-grid, .solution-grid {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1.5em;
+      justify-content: center;
+      margin-top: 1.5em;
+    }
+    .problem-item, .solution-item {
+      background: #fff;
+      border-radius: 16px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+      padding: 1.2em 1.5em;
+      min-width: 180px;
+      max-width: 240px;
+      text-align: center;
+    }
+    .problem-icon, .solution-icon {
+      font-size: 2rem;
+      margin-bottom: 0.5em;
+    }
+    .vision-tagline {
+      background: linear-gradient(135deg, #F7931E 0%, #FF8C00 100%);
+      color: #fff;
+      border-radius: 14px;
+      box-shadow: 0 4px 16px rgba(247,147,30,0.13);
+      padding: 18px 24px;
+      max-width: 500px;
+      margin: 0 auto;
+      font-size: 18px;
+      font-style: italic;
+      text-align: center;
+      font-weight: 600;
+    }
+    @media (max-width: 600px) {
+      .problem-grid, .solution-grid {
+        flex-direction: column;
+        gap: 1em;
+      }
+      .problem-item, .solution-item {
+        min-width: unset;
+        max-width: unset;
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="reveal">
+    <div class="slides">
+      <!-- Slide 1: Cover -->
+      <section class="cover-slide">
+        <div class="logo-section">
+          <div class="logo">
+            <div class="logo-icon">H</div>
+            <h1>Houzzdat</h1>
+          </div>
+        </div>
+        <div class="tagline-section">
+          <h2>Building the future of construction material procurement in India</h2>
+          <p class="subtitle">Investor Presentation • July 2025</p>
+        </div>
+        <div class="cover-visual" style="margin-top: 2em;">
+          <div class="construction-icon" style="font-size: 3rem;">🏗️</div>
+        </div>
+      </section>
+
+      <!-- Slide 2: Problem -->
+      <section>
+        <div class="slide-header">
+          <h2>Construction Procurement is Broken</h2>
+          <p>Builders face critical challenges that impact project timelines and profitability</p>
+        </div>
+        <div class="problem-grid">
+          <div class="problem-item">
+            <div class="problem-icon">📈</div>
+            <h3>Price Volatility</h3>
+            <p>Cement prices fluctuate 25-30% without notice</p>
+          </div>
+          <div class="problem-item">
+            <div class="problem-icon">🔗</div>
+            <h3>Fragmented Supply</h3>
+            <p>1000s of unorganized suppliers, no visibility</p>
+          </div>
+          <div class="problem-item">
+            <div class="problem-icon">⏰</div>
+            <h3>Credit Delays</h3>
+            <p>60-90 day payment cycles strain working capital</p>
+          </div>
+          <div class="problem-item">
+            <div class="problem-icon">🚚</div>
+            <h3>Delivery Issues</h3>
+            <p>30-40% of deliveries delayed causing project overruns</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Slide 3: Solution -->
+      <section>
+        <div class="slide-header">
+          <h2>End-to-End Procurement Excellence</h2>
+          <p>Houzzdat transforms construction material procurement through technology and partnerships</p>
+        </div>
+        <div class="solution-grid">
+          <div class="solution-item">
+            <div class="solution-icon">💰</div>
+            <h3>Transparent Pricing</h3>
+            <p>Real-time rates from verified suppliers</p>
+          </div>
+          <div class="solution-item">
+            <div class="solution-icon">💳</div>
+            <h3>Credit Solutions</h3>
+            <p>Flexible payment terms up to 60 days</p>
+          </div>
+          <div class="solution-item">
+            <div class="solution-icon">✅</div>
+            <h3>Assured Delivery</h3>
+            <p>Direct manufacturer partnerships & logistics</p>
+          </div>
+          <div class="solution-item">
+            <div class="solution-icon">📱</div>
+            <h3>Digital Platform</h3>
+            <p>Quote → Order → Track → Pay workflow</p>
+          </div>
+        </div>
+        <div class="process-flow" style="margin-top: 2em; text-align: center; font-size: 1.2em;">
+          <span class="flow-step">Quote</span>
+          <span class="flow-arrow">→</span>
+          <span class="flow-step">Order</span>
+          <span class="flow-arrow">→</span>
+          <span class="flow-step">Track</span>
+          <span class="flow-arrow">→</span>
+          <span class="flow-step">Pay</span>
+        </div>
+      </section>
+
+      <!-- Slide 4: Vision -->
+      <section>
+        <div class="slide-header">
+          <h2>Our Vision: India's Construction OS, Powered by Vertical AI</h2>
+        </div>
+        <div class="vision-statement" style="margin-bottom: 32px;">
+          <p>"To be India's most trusted construction partner — a vertical AI platform that simplifies procurement, project management, and construction finance, all in one place."</p>
+        </div>
+        <ul class="vision-bullets" style="max-width: 600px; margin: 0 auto 40px auto; font-size: 18px; color: #0F1E50; line-height: 2; list-style: disc inside; font-weight: 500;">
+          <li>Discover reliable construction partners</li>
+          <li>Procure materials seamlessly with real-time insights</li>
+          <li>Access project-based embedded credit</li>
+          <li>Track site-level progress, payments, and budgets</li>
+        </ul>
+        <div class="vision-tagline">
+          "Procurement that learns. Credit that trusts. Execution that flows."
+        </div>
+      </section>
+
+      <!-- More slides can be added here following the same pattern -->
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/reveal.js/dist/reveal.js"></script>
+  <script>
+    Reveal.initialize({
+      hash: true,
+      slideNumber: true,
+      width: 1280,
+      height: 720,
+      margin: 0.04,
+      minScale: 0.2,
+      maxScale: 2.0,
+      controls: true,
+      progress: true,
+      transition: 'slide',
+      responsive: true
+    });
+  </script>
+</body>
+</html> 
