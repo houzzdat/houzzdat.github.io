@@ -99,7 +99,6 @@ const slidesData = [
     key: 1,
     content: (
       <div className="slide-content">
-        <div className="slide-number">Slide 2</div>
         <div className="slide-header">
           <h2>Construction Procurement is Broken</h2>
           <p>Builders face critical challenges that impact project timelines and profitability</p>
@@ -134,7 +133,6 @@ const slidesData = [
     key: 2,
     content: (
       <div className="slide-content">
-        <div className="slide-number">Slide 3</div>
         <div className="slide-header">
           <h2>End-to-End Procurement Excellence</h2>
           <p>Houzzdat transforms construction material procurement through technology and partnerships</p>
@@ -178,7 +176,6 @@ const slidesData = [
     key: 3,
     content: (
       <div className="slide-content">
-        <div className="slide-number">Slide 4</div>
         <div className="slide-header">
           <h2>Our Vision: India's Construction OS, Powered by Vertical AI</h2>
         </div>
@@ -202,7 +199,6 @@ const slidesData = [
     key: 4,
     content: (
       <div className="slide-content">
-        <div className="slide-number">Slide 5</div>
         <div className="slide-header">
           <h2>Massive & Growing Market</h2>
           <p>India's construction materials market presents enormous opportunity</p>
@@ -254,7 +250,6 @@ const slidesData = [
     key: 5,
     content: (
       <div className="slide-content">
-        <div className="slide-number">Slide 6</div>
         <div className="slide-header">
           <h2>Platform Overview</h2>
           <p>Comprehensive digital platform streamlining the entire procurement process</p>
@@ -309,7 +304,6 @@ const slidesData = [
     key: 6,
     content: (
       <div className="slide-content">
-        <div className="slide-number">Slide 7</div>
         <div className="slide-header">
           <h2>Multiple Revenue Streams</h2>
           <p>Diversified revenue model with strong unit economics</p>
@@ -364,7 +358,6 @@ const slidesData = [
     key: 7,
     content: (
       <div className="slide-content">
-        <div className="slide-number">Slide 8</div>
         <div className="slide-header">
           <h2>Strong Growth & Unit Economics</h2>
           <p>Consistent quarter-over-quarter growth with improving margins</p>
@@ -407,7 +400,6 @@ const slidesData = [
     key: 8,
     content: (
       <div className="slide-content">
-        <div className="slide-number">Slide 9</div>
         <div className="slide-header">
           <h2>Path to Profitability & Scale</h2>
           <p>Strong financial trajectory with clear path to sustainable profitability</p>
@@ -484,7 +476,6 @@ const slidesData = [
     key: 9,
     content: (
       <div className="slide-content">
-        <div className="slide-number">Slide 10</div>
         <div className="slide-header">
           <h2>Proven Customer Acquisition Strategy</h2>
           <p>Multi-channel approach with strong customer conversion and retention</p>
@@ -529,7 +520,6 @@ const slidesData = [
     key: 10,
     content: (
       <div className="slide-content">
-        <div className="slide-number">Slide 11</div>
         <div className="slide-header">
           <h2>Experienced Leadership Team</h2>
           <p>Domain expertise and proven track record in construction and technology</p>
@@ -572,7 +562,6 @@ const slidesData = [
     key: 11,
     content: (
       <div className="slide-content">
-        <div className="slide-number">Slide 12</div>
         <div className="slide-header">
           <h2>Funding to Scale Leadership Position</h2>
           <p>Strategic investment to accelerate growth and market expansion</p>
@@ -636,7 +625,6 @@ const slidesData = [
     key: 12,
     content: (
       <div className="slide-content">
-        <div className="slide-number">Slide 13</div>
         <div className="slide-header">
           <h2>Building India's Construction OS</h2>
           <p>Roadmap to become the backbone of India's construction industry</p>
@@ -704,14 +692,12 @@ const slidesData = [
     key: 13,
     content: (
       <div className="slide-content">
-        <div className="slide-number">Slide 14</div>
         <div className="slide-header">
           <h2>AI-Powered Construction Commerce &amp; Credit Infrastructure</h2>
           <p>Bringing intelligence to procurement and construction credit</p>
         </div>
         <div className="ai-infra-container">
           <div className="ai-infra-columns">
-            {/* Left Column: Key AI Applications */}
             <div className="ai-infra-left">
               <h3>Key AI Applications</h3>
               <ul className="ai-app-list">
@@ -723,7 +709,6 @@ const slidesData = [
                 <li><strong>Customer Insights</strong></li>
               </ul>
             </div>
-            {/* Right Column: Visual/Highlights */}
             <div className="ai-infra-right">
               <div className="ai-callout-box">
                 <p className="ai-quote">"Procurement that learns. Credit that trusts. Execution that flows."</p>
